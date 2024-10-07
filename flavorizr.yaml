@@ -1,0 +1,24 @@
+app:
+  android:
+    flavorDimensions: "flavor-type"
+
+flavors:
+  flavor_1:
+    app:
+      name: "Flavor 1"
+
+    android:
+      applicationId: "com.example.flutterFlavor1"
+    ios:
+      bundleId: "com.example.flutterFlavor1"
+
+  flavor_2:
+    app:
+      name: "Flavor 2"
+
+    android:
+      applicationId: "com.example.flutterFlavor2"
+    ios:
+      bundleId: "com.example.flutterFlavor2"
+
+ide: idea
